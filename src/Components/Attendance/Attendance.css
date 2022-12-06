@@ -1,0 +1,29 @@
+.attendance {
+    width: 90%;
+    margin: auto;
+}
+
+.attendance .title {
+    text-align: center;
+    background: #1678CB;
+    border-radius: 5px;
+    width: 25rem;
+    padding: 1rem;
+    margin: auto;
+    color: aliceblue;
+}
+
+.attendance .table-data {
+    width: 95%;
+    margin: auto;
+}
+
+.attendance .table thead tr th {
+    border-bottom: none;
+    padding: 0 3.5rem;
+}
+
+.attendance .table tbody tr td {
+    border-bottom: none;
+    padding: 1.5rem 3.5rem;
+}
