@@ -1,11 +1,14 @@
 import React from 'react';
 import './Attendance.css';
 import logo from '../../images/logo.png'
+import { Link } from 'react-router-dom';
 
 const Attendance = () => {
   return (
     <section className='attendance'>
-      <img src={logo} alt="" className='mt-5'/>
+      <Link to="/">
+        <img src={logo} alt="" className='mt-5' />
+      </Link>
       <h2 className='title'>Attendance Information</h2>
       <div className="table-data mt-5">
         <table class="table">
