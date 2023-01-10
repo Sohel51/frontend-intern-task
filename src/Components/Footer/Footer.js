@@ -16,7 +16,7 @@ const Footer = () => {
             <hr />
             <div className="attendance mt-2">
                 <button onClick={navigateAttendance} type="submit" className="btn btn-primary">Attendance Sheet</button>
-                <button onClick={navigateSignUp} type="submit" className="btn btn-primary">Let's Start</button>
+                <button onClick={navigateSignUp} type="submit" className="btn btn-primary">Let's Start Next</button>
             </div>
         </footer>
     )
