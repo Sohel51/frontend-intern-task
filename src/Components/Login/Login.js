@@ -24,7 +24,7 @@ const Login = () => {
             <input type="password" placeholder='Write Password' /><br />
             {/* validation */}
             <div className="validation-message">
-              <div>Your password must be 8 characters</div>
+              <div className='text-danger'>Your password must be 8 characters</div>
             </div>
           </div><br /><br />
           <div className="next-step">
